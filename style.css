@@ -44,6 +44,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: rgb(167, 48, 218);
+  
 }
 
 .body1 {
@@ -102,7 +103,8 @@ nav ul li a {
     /* background-color: var(--seccolor); */
 
 }
-.createmy{
+
+.createmy {
     width: 100vw;
     height: 10vh;
     display: flex;
@@ -110,7 +112,7 @@ nav ul li a {
     justify-content: center;
 }
 
-.text1{
+.text1 {
     width: 17vw;
     height: 9vh;
     background-color: black;
@@ -122,26 +124,23 @@ nav ul li a {
     border: 2px solid grey;
     box-shadow: 7px 7px 10px grey;
 }
-.text1 h3{
+
+.text1 h3 {
     color: white;
 }
 
 .body2 {
     width: 100vw;
     height: 30vh;
-    background-color: #6ed780;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 30px;
-    /* margin-top: 50px; */
-    padding: 0;
 }
 
 .b11 {
     width: 28vw;
     height: 30vh;
-    /* background-color: #d76d43; */
 }
 
 .b11 img {
@@ -153,7 +152,7 @@ nav ul li a {
 .b12 {
     width: 40vw;
     height: 30vh;
-    background-color: var(--primcolor);
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,6 +174,47 @@ nav ul li a {
 .b13 {
     width: 30vw;
     height: 30vh;
-    /* background-color: var(--seccolor); */
+}
 
+.b111 {
+    display: flex;
+    align-items: center;
+}
+
+.b112 {
+    display: flex;
+    align-items: center;
+}
+
+.b113 {
+    display: flex;
+    align-items: center;
+}
+
+.b12 img {
+    width: 30px;
+}
+
+.howitworks{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--primcolor);
+}
+
+.top{
+    width: 100vw;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.top h1{
+    font-size: 3vw;
+}
+.top h1:hover{
+    text-shadow: 3px 3px 5px grey ;
+}
+::selection{
+    color: aquamarine;
 }
