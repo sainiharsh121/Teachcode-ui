@@ -29,7 +29,7 @@ nav {
 }
 
 nav img {
-    margin-left: 6vw;
+    margin-left: 100px;
 }
 
 .body1 {
@@ -77,7 +77,7 @@ nav img {
 }
 
 .b3 img {
-    transform-origin: 229% -291%;
+    transform-origin: 180% -270%;
     position: absolute;
     transform: rotate(-45deg);
 }
@@ -151,7 +151,7 @@ nav img {
 }
 
 .b13 img {
-    transform-origin: 229% -291%;
+    transform-origin: 149% -221%;
     position: absolute;
     transform: rotate(-45deg);
 }
@@ -213,9 +213,10 @@ nav img {
     align-items: center;
     justify-content: center;
     gap: 80px;
+    cursor: pointer;
 
 }
-@media screen and (max-width:200px){
+@media screen and (max-width:300px){
     .body3{
       
         flex-direction: column;
@@ -228,15 +229,37 @@ nav img {
     height: 50vh;
 }
 
+.b3-1 h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-top: 1.4vw;
+}
 .b3-2 {
     width: 18vw;
     height: 50vh;
+}
+.b3-2 h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-top: 1.4vw;
 }
 
 .b3-3 {
     width: 18vw;
     height: 50vh;
 
+}
+.b3-3 h4{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-top: 1.4vw;
 }
 .getyourown{
     width: 100%;
