@@ -8,6 +8,7 @@ html body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 
 }
 
@@ -18,7 +19,7 @@ html body {
 }
 
 nav {
-    width: 100vw;
+    width: 100%;
     height: 8vh;
     display: flex;
     align-items: center;
@@ -31,24 +32,8 @@ nav img {
     margin-left: 6vw;
 }
 
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    gap: 74px;
-    cursor: pointer;
-    margin: 30px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: rgb(167, 48, 218);
-  
-}
-
 .body1 {
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     /* background-color: #6ed780; */
     display: flex;
@@ -105,7 +90,7 @@ nav ul li a {
 }
 
 .createmy {
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -130,7 +115,7 @@ nav ul li a {
 }
 
 .body2 {
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     display: flex;
     align-items: center;
@@ -152,7 +137,7 @@ nav ul li a {
 .b12 {
     width: 40vw;
     height: 30vh;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -195,26 +180,84 @@ nav ul li a {
     width: 30px;
 }
 
-.howitworks{
+.howitworks {
     width: 100vw;
-    height: 70vh;
-    background-color: var(--primcolor);
+    height: 20vh;
 }
 
-.top{
+.top {
     width: 100vw;
     height: 20vh;
     background-color: white;
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
 }
-.top h1{
+
+.top h1 {
     font-size: 3vw;
 }
-.top h1:hover{
-    text-shadow: 3px 3px 5px grey ;
+
+.top h1:hover {
+    text-shadow: 3px 3px 5px grey;
 }
-::selection{
+
+::selection {
     color: aquamarine;
+}
+
+.body3 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+@media screen and (max-width:200px){
+    .body3{
+      
+        flex-direction: column;
+    }
+    
+}
+
+.b3-1 {
+    width: 20vw;
+    height: 50vh;
+}
+
+.b3-2 {
+    width: 18vw;
+    height: 50vh;
+}
+
+.b3-3 {
+    width: 18vw;
+    height: 50vh;
+
+}
+.getyourown{
+    width: 100%;
+    height: 50vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vw;
+}
+.g1{
+    width: 50vw;
+    height: 20vh;
+    margin-top: 4vw ;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.g1 h3{
+    font-size: 2.5vw;
 }
