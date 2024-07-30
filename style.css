@@ -206,14 +206,14 @@ nav img {
     cursor: pointer;
 
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:500px){
     .body3{
-      
+       
         flex-direction: column;
         align-items: center;
         align-content: center;
-    }
     
+    }
 }
 
 .b3-1 {
